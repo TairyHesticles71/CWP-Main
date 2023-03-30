@@ -11,11 +11,11 @@
 		activate_law = law_type:law_mass_conscription
 		activate_law = law_type:law_publicly_funded_higher_education
 
-		ig:ig_vanguardists = {
+		ig:ig_workers = {
 			add_ruling_interest_group = yes
 			add_ideology = ideology_proletarian
 		}
-		ig:ig_socialists = {
+		ig:ig_workers = {
 			add_ruling_interest_group = yes
 		}
 		ig:ig_intellectuals = {

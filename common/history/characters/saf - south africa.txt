@@ -53,7 +53,7 @@
 			culture = cu:xhosa
 			ig_leader = yes
 			birth_date = 1893.3.8
-			interest_group = ig_socialists
+			interest_group = ig_workers
 			ideology = ideology_liberal_conservative #Conservative traditional political methods
 			traits = {
 				
@@ -65,7 +65,7 @@
 			culture = cu:sotho
 			ig_leader = yes
 			birth_date = 1905.8.9
-			interest_group = ig_vanguardists
+			interest_group = ig_workers
 			ideology = ideology_marxist_leninist #Most communists are at start of game, may change privy to more info
 			traits = {
 				

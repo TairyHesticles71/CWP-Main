@@ -54,6 +54,17 @@ bg_motor_industry = {
 	parent_group = bg_heavy_industry
 }
 
+bg_advanced_manufacturing = {
+	parent_group = bg_manufacturing
+}
+bg_tech_manufacturing = {
+	parent_group = bg_manufacturing
+}
+
+bg_aerospace_manufacturing = {
+	parent_group = bg_manufacturing
+}
+
 # Agriculture
 bg_agriculture = {
 	category = rural

@@ -45,7 +45,7 @@
 			remove_ideology = ideology_reactionary_leader
 			add_ideology = ideology_populist			#?
 		}
-		ig:ig_socialists = {
+		ig:ig_workers = {
 			#fixme pacifist no longer exists
 			# add_ideology = ideology_pacifist
 		}
@@ -64,7 +64,7 @@
 			# remove_ideology = ideology_republican
 			# add_ideology = ideology_pacifist
 		}
-		ig:ig_vanguardists = {
+		ig:ig_workers = {
 			set_interest_group_name = ig_japanese_communists
 			#fixme pacifist no longer exists
 			# add_ideology = ideology_pacifist

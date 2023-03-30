@@ -22,7 +22,7 @@
 			last_name = Thorez
 			age = 46
 			ig_leader = yes
-			interest_group = ig_vanguardists
+			interest_group = ig_workers
 			ideology = ideology_marxist_leninist
 			traits = {
 				ambitious
@@ -33,7 +33,7 @@
 			last_name = Mollet
 			age = 40
 			ig_leader = yes
-			interest_group = ig_socialists
+			interest_group = ig_workers
 			#TODO ideology = TODO
 			traits = {
 				persistent

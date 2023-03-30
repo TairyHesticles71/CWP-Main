@@ -7,7 +7,7 @@
 			ruler = yes
 			ig_leader = yes
 			birth_date = 1883.01.03
-			interest_group = ig_socialists
+			interest_group = ig_workers
 			ideology = ideology_social_democracy
 			traits = {
 				career_politician
@@ -51,35 +51,6 @@
 			traits = {
 				career_politician
 				tactful
-				
-			}
-		}
-		create_character = {
-			first_name = "Harry"
-			last_name = "Pollitt"
-			culture = cu:british
-			ig_leader = yes
-			birth_date = 1890.11.22
-			interest_group = ig_vanguardists
-			ideology = ideology_marxist_leninist
-			traits = {
-				career_trade_unionist
-				
-				
-			}
-		}
-		create_character = {
-			first_name = "Bernard"
-			last_name = "Montgomery"
-			culture = cu:british
-			ig_leader = yes
-			is_general = yes
-			birth_date = 1887.11.17
-			interest_group = ig_armed_forces
-			ideology = ideology_conservative
-			traits = {
-				direct
-				
 				
 			}
 		}

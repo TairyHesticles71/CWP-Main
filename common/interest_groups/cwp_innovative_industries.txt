@@ -31,5 +31,34 @@
 			is_pop_type = researchers
 			is_pop_type = businesspersons
 		}
+		OR = {
+			pop_employment_building_group = bg_advanced_manufacturing
+			pop_employment_building_group = bg_electronics
+			pop_employment_building_group = bg_tech_manufacturing
+			pop_employment_building_group = bg_media
+			pop_employment_building_group = bg_financial_services
+			pop_employment_building_group = bg_trade
+		}
+	}
+	pop_weight = {
+		value = 0
+		add = {
+			desc = "POP_CAPITALISTS"
+			if = {
+				limit = {
+					is_pop_type = capitalists
+				}
+				value = 200
+			}
+		}
+		add = {
+			desc = "POP_ENGINEERS"
+			if = {
+				limit = {
+					is_pop_type = engineers
+				}
+				value = 50
+			}
+		}
 	}
 }

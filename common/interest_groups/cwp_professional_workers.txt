@@ -33,4 +33,29 @@
 			is_pop_type = academics
 		}
 	}
+	pop_weight = {
+		value = 50
+		add = {
+			desc = "POP_ENGINEERS"
+			if = {
+				limit = {
+					NOR = {
+						has_law = law_type:law_council_republic
+					}
+					is_pop_type = engineers
+				}
+				value = 30
+				
+			}
+		}
+		add = {
+			desc = "POP_BUSINESSPERSONS"
+			if = {
+				limit = {
+					is_pop_type = businesspersons
+				}
+				value = 200
+			}
+		}
+	}
 }

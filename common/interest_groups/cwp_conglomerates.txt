@@ -28,7 +28,11 @@
 		OR = {
 			is_pop_type = capitalists
 			is_pop_type = engineers
-			is_pop_type = shopkeepers
+		}
+		NOR = {
+			pop_employment_building_group = bg_advanced_manufacturing
+			pop_employment_building_group = bg_electronics
+			pop_employment_building_group = bg_tech_manufacturing
 		}
 	}
 	pop_weight = {
@@ -48,18 +52,10 @@
 				limit = {
 					is_pop_type = engineers
 				}
-				value = 50
+				value = 15
 			}
 		}
-		add = {
-			desc = "POP_SHOPKEEPERS"
-			if = {
-				limit = {
-					is_pop_type = shopkeepers
-				}
-				value = 50
-			}
-		}
+
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {

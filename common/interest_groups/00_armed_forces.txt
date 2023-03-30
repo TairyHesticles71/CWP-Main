@@ -28,8 +28,6 @@
 		OR = {
 			is_pop_type = soldiers
 			is_pop_type = officers
-			is_pop_type = aristocrats
-			is_pop_type = shopkeepers
 			pop_is_discriminated = no
 		}
 	}
@@ -56,7 +54,7 @@
 				limit = {
 					pop_is_discriminated = no
 				}
-				value = 25
+				value = 15
 			}
 		}
 		add = {

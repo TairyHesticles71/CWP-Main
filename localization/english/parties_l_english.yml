@@ -79,7 +79,7 @@
   party_party_of_the_right: "Party of the Right"
   party_constitutional_association: "Constitutional Association"
   party_imperial_rule_party: "Imperial Rule Party"
-  party_moderate_socialists_party: "Moderate Socialists Party"
+  party_moderate_workers_party: "Moderate workers Party"
   party_blanco_party: "Blanco Party"
   party_colorado_party: "Colorado Party"
   party_liberal_conservative_party: "Liberal-Conservative Party"
@@ -227,7 +227,7 @@
   party_national_grange: "National Grange"
 
   #anarchist_party
-  party_young_socialists: "Young Socialists"
+  party_young_workers: "Young workers"
   party_cnt: "CNT"
   party_maximalist_federation: "Maximalist Federation"
   party_socialist_league: "Socialist League"

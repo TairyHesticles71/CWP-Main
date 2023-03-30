@@ -5,7 +5,7 @@
 		179
 		#temp colors
 	}
-	texture = "gfx/interface/icons/ig_icons/socialists.dds"
+	texture = "gfx/interface/icons/ig_icons/workers.dds"
 	ideologies = {
 		ideology_egalitarian
 		ideology_loyalist
@@ -26,24 +26,37 @@
 	on_character_ig_membership = {
 	}
 	pop_potential = {
-		NOR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
-			is_pop_type = clergymen
-			is_pop_type = shopkeepers
-			is_pop_type = servicemen
-			is_pop_type = officers
-			is_pop_type = farmers
-			is_pop_type = machinists
-			is_pop_type = laborers
+		OR = {
+			is_pop_type = bureaucrats
+			is_pop_type = clerks
 		}
-		NOR = {
-			pop_employment_building_group = bg_agriculture
-			pop_employment_building_group = bg_ranching
-			pop_employment_building_group = bg_plantations
-			pop_employment_building_group = bg_manufacturing
-			pop_employment_building_group = bg_service
+		
+	}
+	pop_weight = {
+		value = 75
+	
+	add = {
+		desc = "POP_BUREAUCRATS"
+		if = {
+			limit = {
+				is_pop_type = bureaucrats
+			}
+			value = 200
 		}
 	}
-	
+	add = {
+		desc = "POP_CLERKS"
+		if = {
+			limit = {
+				OR = {
+					pop_employment_building_group = bg_bureaucracy
+					pop_employment_building_group = bg_public_infrastructure
+				}
+				is_pop_type = clerks
+			}
+			value = 150
+		}
+	}
+
+  }
 }

@@ -1,10 +1,10 @@
-﻿ig_socialists = {
+﻿ig_workers = {
 	color = {
 		92
 		14
 		23
 	}
-	texture = "gfx/interface/icons/ig_icons/socialists.dds"
+	texture = "gfx/interface/icons/ig_icons/workers.dds"
 	ideologies = {
 		ideology_leftist
 		ideology_proletarian

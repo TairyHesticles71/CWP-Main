@@ -442,7 +442,7 @@ building_uranium_refineries = {
 }
 
 building_battery_manufactories = {
-	building_group = bg_heavy_industry
+	building_group = bg_tech_manufacturing
 	texture = "gfx/interface/icons/building_icons/battery_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
@@ -480,7 +480,7 @@ building_pharmaceutical_industry = {
 }
 
 building_computer_manufactories = {
-	building_group = bg_electronics
+	building_group = bg_tech_manufacturing
 	texture = "gfx/interface/icons/building_icons/computer_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
@@ -498,7 +498,7 @@ building_computer_manufactories = {
 }
 
 building_consumer_electronics_manufactories = {
-	building_group = bg_heavy_industry
+	building_group = bg_electronics
 	texture = "gfx/interface/icons/building_icons/appliance_industry.dds"
 	city_type = city
 	levels_per_mesh = 5

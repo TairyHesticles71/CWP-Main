@@ -30,6 +30,7 @@
 			is_pop_type = clergymen
 			is_pop_type = officers
 			is_pop_type = farmers
+			is_pop_type = capitalists
 		}
 	}
 	pop_weight = {
@@ -62,12 +63,12 @@
 			}
 		}
 		add = {
-			desc = "POP_FARMERS"
+			desc = "POP_CAPITALISTS"
 			if = {
 				limit = {
-					is_pop_type = farmers
+					is_pop_type = capitalists
 				}
-				value = 50
+				value = 25
 			}
 		}
 		multiply = {

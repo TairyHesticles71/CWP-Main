@@ -48,7 +48,7 @@
 				limit = {
 					is_pop_type = clerks
 				}
-				value = 100
+				value = 15
 			}
 		}
 		add = {
@@ -57,7 +57,7 @@
 				limit = {
 					is_pop_type = bureaucrats
 				}
-				value = 50				# Lowered for state bureaucrat IG
+				value = 20				# Lowered for state bureaucrat IG
 			}
 		}
 		add = {
