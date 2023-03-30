@@ -4876,12 +4876,14 @@ pm_publicly_traded_industry = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 200
+			building_employment_capitalists_add = 100
+			building_employment_businesspersons_add = 100
 			building_cash_reserves_mult = 0.01
 			building_input_financial_services_add = 5
 		}
 		unscaled = {
-			building_capitalists_shares_add = 10
+			building_capitalists_shares_add = 5
+			building_employment_businesspersons_add = 5
 			building_throughput_mult = 0.05
 		}
 	}

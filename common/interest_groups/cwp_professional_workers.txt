@@ -1,0 +1,36 @@
+﻿ig_professional_workers = {
+	color = {
+		207
+		194
+		114
+	}
+	texture = "gfx/interface/icons/ig_icons/entrepreneurs.dds"
+	ideologies = {
+		ideology_laissez_faire
+		ideology_plutocratic
+		ideology_populist
+	}
+	enable = {
+		always = yes
+	}
+	traits = {
+		ig_trait_treasury_bonds
+		ig_trait_middle_managers
+		ig_trait_xenophobia
+	}
+	on_enable = {
+	}
+	on_disable = {
+	}
+	on_character_ig_membership = {
+	}
+	pop_potential = {
+		pop_has_primary_culture = yes
+		OR = {
+			is_pop_type = businesspersons
+			is_pop_type = engineers
+			is_pop_type = researchers
+			is_pop_type = academics
+		}
+	}
+}

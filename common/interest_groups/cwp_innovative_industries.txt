@@ -1,0 +1,35 @@
+﻿ig_innovative_industries.txt = {
+	color = {
+		198
+		238
+		245
+	}
+	texture = "gfx/interface/icons/ig_icons/conglomerates.dds"
+	ideologies = {
+		ideology_plutocratic
+		ideology_laissez_faire
+		ideology_individualist
+	}
+	enable = {
+		always = yes
+	}
+	traits = {
+		ig_trait_job_creators
+		ig_trait_engines_of_progress
+		ig_trait_tax_avoidance
+	}
+	on_enable = {
+	}
+	on_disable = {
+	}
+	on_character_ig_membership = {
+	}
+	pop_potential = {
+		OR = {
+			is_pop_type = capitalists
+			is_pop_type = engineers
+			is_pop_type = researchers
+			is_pop_type = businesspersons
+		}
+	}
+}
